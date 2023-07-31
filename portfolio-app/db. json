@@ -1,0 +1,27 @@
+
+[
+    {
+      "id": 1,
+      "title": "Project 1",
+      "description": "Wetto Shop, an e-commerce website.",
+      "image": "https://www.figma.com/file/tpXDb8X45s0uWniiS9pcs1/SHOPPING-SITE?type=design&t=nyoXENXSxLN4Chyz-6",
+      "url": "https://github.com/mueni5/e-commerce-project-front-end"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "description": "Todo-App-project",
+      "image": "file:///home/christine/Pictures/ToDo%20app.webp",
+      "url": "https://github.com/mueni5/Todo-App-project"
+    },
+    {
+      "id": 3,
+      "title": "Project 3",
+      "description": "Flygo Web Application",
+      "image": "https://www.figma.com/file/cX64kVHy1Bd0vvbdaAjk0z/FlyGo?type=design&node-id=0-1&mode=design&t=HnMq6pRxfZIYOoaq-0",
+      "url": "https://github.com/mueni5/final-flygo"
+
+    }
+    
+  ]
+  
