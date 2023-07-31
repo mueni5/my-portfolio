@@ -4,7 +4,7 @@
     "image": "FB_IMG_16868174595667464",
     "name": "Christine Mbuvi",
     "title": "Web Developer",
-    "description": "I am a passionate web developer. Currently learning JavaScript and Ruby languages, Proficient in React & Ruby on Rails frameworks.",
+    "description": "Behind every successful project there is a Woman",
     "contact": {
       "email": "mbuvichristine5@gmail.com",
       "github": "https://github.com/mueni5",
@@ -15,30 +15,30 @@
     {
       "id": 1,
       "title": "Wetto Shop",
-      "description": "An e-commerce website Front-end.",
+      "description": "An E-commerce website built using React Front-end.",
       
       "url": "https://github.com/mueni5/e-commerce-project-front-end"
     },
     {
       "id": 2,
       "title": "Todo App",
-      "description": "A simple todo application.",
+      "description": "A simple todo application built using React, css and db json.",
       
       "url": "https://github.com/mueni5/Todo-App-project"
     },
     {
       "id": 3,
       "title": "Flygo Web Application",
-      "description": "A web application for Flygo.",
+      "description": "A web application built using React front-end; Rails API and SQlite database.",
       
       "url": "https://github.com/mueni5/final-flygo"
     },
     {
       "id": 4,
       "title": "Wetto Shop",
-      "description": "A Ruby sinatra backend for Wetto.",
+      "description": "A Ruby sinatra backend and SQlite database.",
       
-      "url": "https://github.com/mueni5/e-commerce-project"
+      "url": "https://github.com/mueni5/E-commerce-sinatra-back-end"
     }
 
   ]
