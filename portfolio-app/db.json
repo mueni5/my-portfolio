@@ -1,10 +1,10 @@
 {
   "profile": {
     "id": 1,
-    "image": "IMG-20230327-WA0015.jpg",
+    "image": "https://picsum.photos/200",
     "name": "Christine Mbuvi",
-    "title": "Web Developer",
-    "description": "Behind every successful project there is a Woman",
+    "title": "Software Developer",
+    "description": " I build stunning, scalable web applications. From small to large-scale projects. Let's build something great together!",
     "contact": {
       "email": "mbuvichristine5@gmail.com",
       "github": "https://github.com/mueni5",
@@ -15,7 +15,7 @@
     {
       "id": 1,
       "title": "Wetto Shop",
-      "description": "An E-commerce website built using React Front-end.",
+      "description": "An E-commerce website built using React Front-end and Ruby Sinatra.",
       
       "url": "https://github.com/mueni5/e-commerce-project-front-end"
     },
@@ -29,16 +29,23 @@
     {
       "id": 3,
       "title": "Flygo Web Application",
-      "description": "A web application built using React front-end; Rails API and SQlite database.",
+      "description": "A web application for flights bookings and reviews built using React front-end; Rails API and SQlite database.",
       
       "url": "https://github.com/mueni5/final-flygo"
     },
     {
       "id": 4,
-      "title": "Wetto Shop",
-      "description": "A Ruby sinatra backend and SQlite database.",
+      "title": "Linda Mama",
+      "description": "An app for expectant mothers created using React,Rails backend and Postgresql database.",
       
-      "url": "https://github.com/mueni5/E-commerce-sinatra-back-end"
+      "url": "https://https://github.com/mueni5/linda-mama-full"
+    },
+    {
+      "id": 5,
+      "title": "Diet-Blog",
+      "description": "An app for expectant mothers to read about diet and also communicate with doc/other mothers through a chat forum using React,Rails backend and Postgresql database.",
+      
+      "url": "https://github.com/mueni5/diet-blog"
     }
 
   ]

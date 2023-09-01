@@ -2,7 +2,7 @@
 .footer-container {
     background-color: #8f8d8d;
     color: #fff;
-    padding: 10px;
+    padding: 0px;
   }
   
   .footer-content {
@@ -23,12 +23,12 @@
     color: #fff;
     text-decoration: none;
     font-size: 24px;
-    margin-right: 10px;
+    margin-right: 100px;
   }
   
   .footer-bottom {
     background-color: #222;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
   }
   

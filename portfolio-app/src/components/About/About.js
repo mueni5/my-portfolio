@@ -1,4 +1,5 @@
 import React from "react";
+import './About.css';
 
 export default function About() {
   return (
@@ -11,8 +12,7 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-           "I am  Proficient in javascript React, Ruby & Ruby on Rails frameworks. Highly motivated and detail-oriented individual seeking an entry-
-           level position as a Full Stack Software Developer. I recently
+           "I have taken long enough before showcasing what I am capable of as far as web development goes. I have given myself enough excuses. I have hidden my light under the bed for a long time. The end of all excuses is right now. So I code; Scared. Unsure... I create Apps. I am  Proficient in HTML, CSS, React, Ruby & Ruby on Rails frameworks. I am seeking a position to grow as a Full Stack Software Developer. I recently
            completed a Software Engineering course at Moringa School and I
             am eager to apply my skills and knowledge to contribute to the success of an organization.
           </p>
@@ -32,8 +32,8 @@ export default function About() {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
-            alt="hero"
-            src="./coding.jpg"
+            alt=""
+            src=""
           />
         </div>
       </div>

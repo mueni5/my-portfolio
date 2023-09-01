@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Home.css'; // Import the CSS file for the Home component
 
-
 const Home = () => {
   const [profileData, setProfileData] = useState(null);
   const [error, setError] = useState(null);
+  const imageUrl = "./coding.jpg";// Define imageUrl as a state variable
 
   useEffect(() => {
     const fetchProfileData = () => {
@@ -27,17 +27,19 @@ const Home = () => {
   }
 
   return (
-    <div className="home-container">
-      <h1 className="name">{profileData?.name}</h1>
-      <img src={process.env.PUBLIC_URL + '/Images/IMG-20230327-WA0015.jpg'} alt="Coding" />
-      <p className="description">{profileData?.description}</p>
-      <p className="contact">Email: {profileData?.contact.email}</p>
-      <p className="contact">
-        Github: <a href={profileData?.contact.github} target="_blank" rel="noopener noreferrer">Profile</a>
-      </p>
-      <p className="contact">
-        LinkedIn: <a href={profileData?.contact.linkedin} target="_blank" rel="noopener noreferrer">Profile</a>
-      </p>
+    <div className="full-screen-background">
+      <img src="/coding.jpg" alt="" className="background-image" />
+      <div className="home-container">
+        <h1 className="name">{profileData?.name}</h1>
+        <p className="description">{profileData?.description}</p>
+        <p className="contact">Email: {profileData?.contact.email}</p>
+        <p className="contact">
+          Github: <a href={profileData?.contact.github} target="_blank" rel="noopener noreferrer">Profile</a>
+        </p>
+        <p className="contact">
+          LinkedIn: <a href={profileData?.contact.linkedin} target="_blank" rel="noopener noreferrer">Profile</a>
+        </p>
+      </div>
     </div>
   );
 };

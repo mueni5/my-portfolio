@@ -2,7 +2,7 @@
 .navbar {
     background-color: #83725d;
     color: #fff;
-    padding: 10px 20px;
+    padding: 0px 10px;
   }
   
   .navbar-container {
@@ -14,10 +14,10 @@
   }
   
   .logo {
-    color: #fff;
+    color: #e5bdf5;
     font-size: 24px;
-    text-decoration: navy;
-    font-weight: bold;
+    text-decoration: rgb(143, 143, 202);
+    font-weight: initial;
   }
   
   .nav-links {
