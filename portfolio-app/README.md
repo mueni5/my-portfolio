@@ -1,12 +1,14 @@
-# My-portfolio
-  My portfolio is a showcase of my projects, skills, and personal information. It serves as a platform to demonstrate my expertise in web development and highlight my achievements.
+# My-Portfolio
+  My portfolio is a showcase of my projects, skills, and personal information. It serves as a platform to demonstrate my expertise in web development.
 
 ## Features
-  Home Page: Displays my name, profile picture, my contact details and links to my GitHub and LinkedIn profiles.
+  Home Page: Displays my name, profile picture and links to my GitHub and LinkedIn profiles.
 
   Projects Page: Showcases a collection of my projects with details and links.
 
   About Page: Provides more information about me.
+
+  Contact page: Displays my contact information.
 
 ### Front-end Setup
    To run the front-end of the portfolio, follow these steps:
@@ -25,8 +27,8 @@
 
     1.Make sure you have Node.js installed on your machine.
     2.Clone this repository to your local system (if you haven't already).
-    3.Navigate to the db directory and run npm install to install the required dependencies.
-    4.Once the installation is complete, run npm start to start the JSON server. 
+    3.Navigate to the root directory and run npm install to install the required dependencies.
+    4.Once the installation is complete, run json-server --watch db.json to start the JSON server. 
   
   The server will be available at http://localhost:3000.
 
@@ -36,7 +38,7 @@
 ### Contact
     You can reach out to me through the following channels:
 
-    Email: mbuvichristine5@gmail.com or muenih.muenide@gmail.com
+    Email: mbuvichristine5@gmail.com
 
     GitHub: github.com/mueni5
 

@@ -5,7 +5,6 @@ import './Home.css'; // Import the CSS file for the Home component
 const Home = () => {
   const [profileData, setProfileData] = useState(null);
   const [error, setError] = useState(null);
-  const imageUrl = "./coding.jpg";// Define imageUrl as a state variable
 
   useEffect(() => {
     const fetchProfileData = () => {
@@ -27,9 +26,8 @@ const Home = () => {
   }
 
   return (
-    <div className="full-screen-background">
-      <img src="/coding.jpg" alt="" className="background-image" />
-      <div className="home-container">
+    <div className="home-container">
+      <div className="text-container">
         <h1 className="name">{profileData?.name}</h1>
         <p className="description">{profileData?.description}</p>
         <p className="contact">Email: {profileData?.contact.email}</p>
@@ -39,6 +37,9 @@ const Home = () => {
         <p className="contact">
           LinkedIn: <a href={profileData?.contact.linkedin} target="_blank" rel="noopener noreferrer">Profile</a>
         </p>
+      </div>
+      <div className="image-container">
+        <img src="/Christine profile.jpg" alt="" className="profile-image" />
       </div>
     </div>
   );
