@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(() => {
     const fetchProfileData = () => {
       axios
-        .get('http://localhost:3000/profile') // Update the URL here
+        .get('http://localhost:3000/profile') 
         .then((response) => {
           setProfileData(response.data);
         })
@@ -39,7 +39,7 @@ const Home = () => {
         </p>
       </div>
       <div className="image-container">
-        <img src="/Christine profile.jpg" alt="" className="profile-image" />
+        <img src="/SChristine.png" alt="" className="profile-image" />
       </div>
     </div>
   );

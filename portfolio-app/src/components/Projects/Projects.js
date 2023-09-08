@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Projects.css'; // Import the CSS file for the Projects component
+import './Projects.css'; 
 
 const Projects = () => {
   const [projectsData, setProjectsData] = useState([]);

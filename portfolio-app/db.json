@@ -36,14 +36,14 @@
     {
       "id": 4,
       "title": "Linda Mama",
-      "description": "An app for expectant mothers created using React,Rails backend and Postgresql database.",
+      "description": "An app for expectant mothers created using React,Rails API and Postgresql database.",
       
       "url": "https://https://github.com/mueni5/linda-mama-full"
     },
     {
       "id": 5,
       "title": "Diet-Blog",
-      "description": "An app for expectant mothers to read about diet and also communicate with doc/other mothers through a chat forum using React,Rails backend and Postgresql database.",
+      "description": "An app for expectant mothers to read about diet and a Chat Forum using React,Rails API and Postgresql database.",
       
       "url": "https://github.com/mueni5/diet-blog"
     }

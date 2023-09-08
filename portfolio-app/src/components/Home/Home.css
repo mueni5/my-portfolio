@@ -3,12 +3,12 @@
 .home-container {
   display: flex;
   align-items: center; 
-  background-color: #FFDB58;
+  background-color: #f0ede4;
 }
 
 .text-container {
   flex: 1; /* Take up 50% of the available space */
-  padding: 20px; /* Adjust as needed */
+  padding: 40px; /* Adjust as needed */
 }
 
 .image-container {
